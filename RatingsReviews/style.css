@@ -1,0 +1,762 @@
+body {
+    font-size: 12px;
+}
+.module#rr-module {
+    font-size: .833em;
+    height: auto!important;
+    min-height: 300px;
+    background: #F5F5F5;
+}
+
+.card-ratings li {
+    float: left;
+    padding: 0 30px;
+    max-width: 150px;
+    line-height: 12px;
+    border-right: 1px solid #a0a0a0;
+    margin-bottom: 4px
+}
+.card-ratings li:last-child {
+    border: none;
+    padding-right: 0
+}
+
+.card-ratings {
+    margin: 29px auto 0 55px;
+    overflow: hidden;
+    width: auto;
+    display: table
+}
+
+#rr-module .review-container .dtreviewed,#rr-module .reviewer .industry-type-value,.rating {
+    display: block
+}
+
+
+
+#rr-module .module-container>* {
+    position: relative;
+    z-index: 1
+}
+
+#rr-module .rr-bgr {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+    background: url(../OAimages/amex-open/1280/rr-bg.png?2);
+    z-index: 1
+}
+
+.card-ratings li:first-child {
+    padding-left: 0
+}
+
+.rating {
+    margin: 10px auto 0;
+    position: relative;
+    height: 19px
+}
+
+.rating span {
+    margin: 0 auto
+}
+
+
+
+.cr-header-rating-holder,.rr-rating-stars {
+    margin: 0;
+    display: block
+}
+
+
+.scrollbar.disable+.viewport .overview {
+    top: 0!important
+}
+
+.addreview {
+    color: #4d4f53;
+    font: 11px Arial;
+    margin-left: 1px;
+    float: left;
+    margin-top: 2px
+}
+
+#rr-module .slides {
+    margin-top: 12px;
+    padding: 0;
+}
+
+#rr-module .slider {
+    position: relative;
+    left: 0
+}
+
+#rr-module .slides>li {
+    width: 205px;
+    float: left;
+    margin-left: 42px
+}
+
+#rr-module .headers,.custom-scrollbar .viewport {
+    width: auto
+}
+
+#wrapper #rr-module .slides>li.first-in-slide,#wrapper #rr-module .slides>li.last-in-slide,#wrapper #rr-module .slides>li:first-child {
+    margin-left: 0
+}
+
+
+
+#rr-module .reviewer .industry-type-value {
+    word-wrap: break-word
+}
+
+#rr-module .reviewer .company-type {
+    font: 700 1.3em Arial;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    word-wrap: break-word
+}
+
+.custom-scrollbar .scrollbar {
+    height: 0px
+}
+
+.custom-scrollbar .thumb {
+    left: 0;
+    padding: 0;
+    border-right: 8px solid #A0A0A0;
+    z-index: 10
+}
+
+#rr-module .slides>li .viewport {
+    overflow: auto;
+    position: relative;
+    height: 140px;
+    margin: 5px 0 18px;
+    font: 1.2em Arial;
+    color: #4d4f53
+}
+
+#rr-module .slides>li .description {
+    padding-right: 12px;
+    line-height: 17px;
+    margin-bottom: 0;
+    word-wrap: break-word
+}
+
+.custom-scrollbar .overview {
+    width: 100%;
+    position: absolute
+}
+
+.custom-scrollbar .scrollbar.disable {
+    display: none!important
+}
+
+.reviewer {
+    padding-top: 5px;
+    font-family: Arial;
+    color: #4d4f53;
+    border-top: 1px solid #d4d8db;
+    -webkit-transform: translate3d(0,0,0)
+}
+
+.carousel-reviews {
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.carousel-reviews .hp-reviews {
+    min-height: 200px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#rr-module .module-container {
+    margin-left: 0
+}
+
+.carousel-reviews .hp-nav-reviews .hp-prev {
+    left: 114px;
+    margin-left: -30px;
+    padding: 8px 2px 8px 11px
+}
+
+.carousel-reviews .hp-nav-reviews .hp-next {
+    background-position: -42px 0;
+    right: 114px;
+    margin-right: -30px;
+    padding: 8px 7px 8px 6px
+}
+
+.carousel-reviews .hp-direction-nav {
+    display: block
+}
+
+.carousel-reviews .hp-nav-reviews a {
+    border: 1px solid #a6a7a9;
+    border-radius: 5px;
+    bottom: 20px;
+    color: #000;
+    font-size: 16px;
+    padding: 6px;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 15px;
+    background: #fff;
+    text-decoration: none;
+}
+
+.carousel-reviews .hp-control-paging li a,.carousel-reviews .hp-control-paging li a.hp-active {
+    text-indent: 0;
+    background: 0 0
+}
+
+#rr-module .module-container h2.module-title {
+    font: 700 2.2em Arial;
+    padding-top: 13px;
+    margin: 0 auto 0 -1px;
+    color: #222;
+    text-align: center
+}
+
+#rr-module .slides>li h3.summary {
+    font: 1.8em Arial;
+    color: #222;
+    word-wrap: break-word
+}
+
+.rr-rating-stars {
+    margin-top: 10px
+}
+
+#rr-module .rr-rating-stars.rating50 {
+    background-position: 0 0
+}
+
+#rr-module .rr-rating-stars.rating45 {
+    background-position: 0 -24px
+}
+
+#rr-module .rr-rating-stars.rating40 {
+    background-position: 0 -48px
+}
+
+#rr-module .rr-rating-stars.rating35 {
+    background-position: 0 -72px
+}
+
+#rr-module .rr-rating-stars.rating30 {
+    background-position: 0 -96px
+}
+
+#rr-module .rr-rating-stars.rating25 {
+    background-position: 0 -120px
+}
+
+#rr-module .rr-rating-stars.rating20 {
+    background-position: 0 -144px
+}
+
+#rr-module .rr-rating-stars.rating15 {
+    background-position: 0 -168px
+}
+
+#rr-module .rr-rating-stars.rating10 {
+    background-position: 0 -192px
+}
+
+#rr-module .rr-rating-stars.rating0 {
+    background-position: 0 -240px
+}
+
+.dtreviewed {
+    margin-top: 5px;
+    font: 1.2em Arial;
+    color: #4d4f53
+}
+
+.reviews-shadow {
+    height: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    background-image: -webkit-gradient(radial,center center,0,center center,125,color-stop(0,#353536),color-stop(48,#E7E7E8),color-stop(51,#E7E7E8),color-stop(100,#E7E7E8));
+    background-image: -webkit-radial-gradient(center,ellipse closest-side,#000 0,rgba(0,0,0,.15) 48%,rgba(0,0,0,.15) 51%,rgba(0,0,0,0) 100%);
+    background-image: radial-gradient(ellipse closest-side at center,#000 0,rgba(0,0,0,.15) 48%,rgba(0,0,0,.15) 51%,rgba(0,0,0,0) 100%);
+    border: 0
+}
+
+.reviews-shadow:after {
+    display: block;
+    content: '';
+    height: 28px;
+    background: -webkit-gradient(radial,50% 0,0,50% 0,116,color-stop(0,rgba(0,0,0,.19)),color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(farthest-side at center top,rgba(0,0,0,.19) 0,rgba(0,0,0,0) 100%);
+    background: radial-gradient(farthest-side at center top,rgba(0,0,0,.19) 0,rgba(0,0,0,0) 100%);
+    filter: alpha(opacity=90);
+    -moz-opacity: .9;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+.carousel-reviews .hp-nav-reviews a.hp-disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.carousel-reviews .hp-control-nav {
+    display: none
+}
+
+.card-ratings div {
+    font: .75em Arial;
+    line-height: 15px;
+    color: #4d4f53;
+    text-align: center
+}
+
+.see-all-container {
+    width: 282px;
+    margin-top: 20px
+}
+
+.see-all-container.show {
+    display: block
+}
+
+.hp-view-paging li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    zoom:1}
+
+.carousel-reviews .hp-nav-reviews.disable,.carousel-reviews .hp-view-paging.disable,#rr-module .headers,.reviews-shadow {
+    display: none
+}
+
+.carousel-reviews .hp-view-paging {
+    text-align: center;
+    padding: 0;
+    width: 100%
+}
+
+
+
+.carousel-reviews .hp-view-paging li {
+    font: 1.4em Arial;
+    color: #4d4f53;
+    letter-spacing: 1px
+}
+
+
+
+
+
+#rr-module .slides>li.first-in-slide,#rr-module .slides>li.last-in-slide,#rr-module .slides>li:first-child {
+    margin-left: 0
+}
+
+.open.xhd .carousel-reviews .hp-nav-reviews a {
+    width: 15px
+}
+
+.cr-header-rating-holder {
+    -ms-transform: scale(.8);
+    transform: scale(.8);
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(.8);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform: scale(.8);
+    -moz-transform-origin: 50% 50%
+}
+
+.rr-rating-stars {
+    -ms-transform: scale(.6);
+    transform: scale(.6);
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(.6);
+    -webkit-transform-origin: 0 0;
+    -moz-transform: scale(.6);
+    -moz-transform-origin: 0 0
+}
+.hp-nav-reviews {
+    list-style: none;
+}
+/* For mobile */
+@media screen and (max-width: 600px) {
+    ul#accordion #card-review .content {
+        float: left;
+        width: 100%;
+        box-sizing: border-box
+    }
+    #rr-module .slides>li .rating-detail,.reviewer {
+        margin-right: 20px
+    }
+    
+    .module-container {
+        margin-left: 10%
+    }
+    
+    #rr-module .slides>li {
+        width: 260px!important;
+        margin-top: 14px;
+        padding: 0;
+        margin-left: 0
+    }
+    
+    #rr-module .carousel-reviews {
+        border: 1px solid #a0a0a0;
+        width: 280px;
+        margin: 14px auto 20px;
+        border-radius: 5px;
+        background: #fff
+    }
+    
+    #rr-module .slides {
+        margin-top: 0
+    }
+    
+    .custom-scrollbar {
+        width: 240px
+    }
+    
+    #rr-module .reviewer .industry-type-value,#rr-module .reviewer .member-since,#rr-module .reviewer .member-since-value {
+        font: 1.2em Arial
+    }
+    
+    .seeAllButton {
+        margin-bottom: 25px
+    }
+    
+    .carousel-reviews .hp-viewport {
+        min-height: 410px;
+        padding-bottom: 0
+    }
+    
+    .carousel-reviews .hp-view-paging {
+        bottom: 25px
+    }
+    
+    #rr-module .module-container h2.module-title {
+        margin: 0 auto;
+        width: 280px;
+        padding-top: 23px
+    }
+    
+    #rr-module .slides>li .viewport {
+        margin-bottom: 11px;
+        width: 96%
+    }
+    
+    #rr-module .slides>li .touch-scrollbar .viewport {
+        width: 100%
+    }
+    
+    .see-all-container {
+        margin: 0 auto
+    }
+
+
+}
+
+/* For tablets */
+@media screen and (min-width: 661px) and (max-width: 830px) {
+    .card-ratings li {
+        padding: 2px 25px
+    }
+    #card-review .content {
+        left: 128px;
+        padding: 0;
+        float: none
+    }
+    .card-ratings {
+        margin: 29px auto 0
+    }
+    .rating span {
+        position: absolute
+    }
+    #rr-module .module-container h2.module-title {
+        font-size: 2.8em;
+        padding-top: 20px;
+        margin-left: 0
+    }
+    #card-review .innercol {
+        width: 100%;
+        float: none
+    }
+    
+    #rr-module .module-container {
+        margin: 0 auto;
+        width: 540px
+    }
+    #wrapper ul#accordion>li#card-review>h2 {
+        display: none
+    }
+    
+    #rr-module {
+        font-size: .682em;
+        padding-bottom: 40px
+    }
+    
+    #rr-module .slides>li {
+        width: 170px;
+        margin-left: 16px
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-prev {
+        left: 46%
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-next {
+        right: 46%
+    }
+    
+    .carousel-reviews .hp-viewport {
+        padding-bottom: 127px
+    }
+    
+    .carousel-reviews {
+        width: 542px;
+        margin: 0 auto
+    }
+    
+    #wrapper #rr-module .slides>li.last-in-slide {
+        margin-left: 0
+    }
+    
+    .see-all-container {
+        width: 540px;
+        margin: 20px auto 0
+    }
+    
+    .card-ratings div {
+        font-size: 1.3em
+    }
+    
+    #rr-module .slides>li h3.summary {
+        font-size: 1.6em
+    }
+    
+    .dtreviewed {
+        font-size: 1.1em
+    }
+    
+    #rr-module .reviewer .company-type {
+        font-size: 1.2em
+    }
+    #rr-module .slides>li:first-child {
+        margin-left: 0
+    }
+    .carousel-reviews .hp-nav-reviews a {
+        top: auto;
+        bottom: 0
+    }
+    .reviewer span {
+        font-size: 1.1em
+    }
+
+}
+
+/* For desktop */
+@media screen and (min-width: 831px) {
+    #card-review .content {
+        left: 128px;
+        padding: 0;
+        float: none
+    }
+    
+    #card-review .innercol,#card-review .innercol {
+        width: 100%;
+        float: none
+    }
+    
+    #wrapper ul#accordion>li#card-review>h2,#wrapper ul#accordion>li#card-review>h2 {
+        display: none
+    }
+    #wrapper #rr-module .slides>li.first-in-slide {
+        padding-left: 4px;
+        box-sizing: border-box
+    }
+    .carousel-reviews .hp-nav-reviews a,.carousel-reviews .hp-nav-reviews a {
+        top: auto;
+        bottom: 0
+    }
+    #rr-module .module-container h2.module-title {
+        font: 700 3.8em Arial;
+        padding-top: 40px;
+        margin: 0;
+        width: 100%
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-prev {
+        left: 48%
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-next {
+        right: 48%
+    }
+    
+    .card-ratings li:last-child {
+        padding-right: 0
+    }
+    
+    #rr-module .reviewer .company-type {
+        font-size: 1.3em
+    }
+    
+    .card-ratings {
+        margin-top: 32px
+    }
+    
+    #rr-module .slides {
+        margin-top: 10px
+    }
+    
+    .dtreviewed {
+        margin-top: 6px
+    }
+    
+    #rr-module .slides>li .viewport {
+        margin: 9px 0 12px
+    }
+    
+    .reviewer {
+        padding-top: 7px
+    }
+    
+    .card-ratings li:first-child {
+        padding-left: 0
+    }
+    
+    .card-ratings li {
+        float: left;
+        padding: 2px 40px;
+        max-width: 150px;
+        line-height: 12px
+    }
+    
+    .card-ratings div {
+        font-family: Arial;
+        height: 19px;
+        line-height: 19px;
+        margin-top: -4px
+    }
+    
+    .card-ratings .rating {
+        margin: 3px 0 0
+    }
+    
+    div.em-module div.em-bg-rptr {
+        height: 742px
+    }
+    
+    .carousel-reviews .hp-viewport {
+        min-height: 388px;
+        padding-bottom: 110px
+    }
+    
+    #rr-module .slides>li .viewport,.reviewer span {
+        font-size: 1.2em
+    }
+    
+    .see-all-container {
+        width: 946px
+    }
+    
+    #rr-module .headers {
+        width: 100%;
+        margin: 0 auto
+    }
+    
+    #rr-module .headers {
+        width: auto
+    }
+    
+    #rr-module .module-container h2.module-title {
+        font-size: 3.8em;
+        padding-top: 60px;
+        width: 90%;
+        margin: 0 auto
+    }
+    
+    #rr-module .slides {
+        width: 100%
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-prev {
+        left: 47%;
+        margin-left: -30px
+    }
+    
+    .carousel-reviews .hp-nav-reviews .hp-next {
+        right: 47%;
+        margin-right: -30px
+    }
+    
+    .card-ratings div {
+        font-size: 1.4em
+    }
+    
+    .card-ratings {
+        margin: 30px auto 0
+    }
+    
+    #rr-module .slides>li h3.summary {
+        font-size: 1.8em
+    }
+    
+    #rr-module .reviewer .company-type {
+        font-size: 1.2em
+    }
+    
+    .dtreviewed,.reviewer span {
+        font-size: 1.1em
+    }
+    
+    #rr-module {
+        font-size: .667em;
+        padding-bottom: 40px
+    }
+    
+    #rr-module .module-container {
+        min-height: 0
+    }
+    
+    #rr-module .slides>li .viewport {
+        font-size: 1.2em
+    }
+    
+    .carousel-reviews .hp-viewport {
+        min-height: 217px;
+        padding-bottom: 125px
+    }
+    
+    .carousel-reviews {
+        width: 100%;
+        margin: 0 auto
+    }
+    
+    #rr-module .slides>li {
+        margin-left: 45px
+    }
+    
+    .see-all-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto
+    }
+    #rr-module .slides>li:first-child,#rr-module .slides>li.first-in-slide {
+        margin-left: 0
+    }
+}
